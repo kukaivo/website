@@ -1,0 +1,152 @@
+.container {
+  width: 80%;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FBFEFC;
+  color: #3D3D3D;
+  font-family: monospace;
+#F3FDF7
+}
+
+
+h1 {
+  color: #CE5C6D;
+  border-bottom: 2px solid #5F5F5F;
+  border-right: 2px solid #5F5F5F;
+  text-shadow: 2px 2px #5F5F5F;
+}
+#menu {
+  list-style-type: none;
+  text-align: right;
+  margin: 0px;
+  padding: 20px;
+  overflow: hidden;
+  background-color:  #1D2528;
+
+}
+#menu li {
+  display: inline;
+  padding: 20px;
+
+}
+#menu a {
+  text-decoration: none;
+    color: #D1D1D1;
+  }
+  a li:hover{
+    color: black;
+    background-color: #CE5C6D;
+  }
+  a li:active {
+    background-color: #5D5D5D;
+  }
+  .DPP {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  footer {
+    text-align: center;
+    background-color: #bbe1fa;
+    padding: 20px;
+  }
+  img {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 600px;
+      text-align: center;
+
+  }
+  hr {
+    border-bottom: 5px dotted #CE5C6D;
+    border-right: none;
+    border-top:none ;
+    border-left: none ;
+
+  }
+  table {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #1D2528;
+    color:#CE5C6D;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th {
+  color: #D1D1D1
+  }
+  td {
+    padding: 10px;
+    background-color: #F3FDF7;
+  }
+  td:hover {
+    background-color: #1D2528;
+  }
+
+  #formDiv {
+
+    border-radius: 30px;
+  }
+  .myform {
+    background-color: #1D2528;
+    width: 70%;
+    color: #F3FDF7;
+    padding: 20px;
+    font-family: font-family: 'Oswald', sans-serif;
+    float: left;
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 20px;
+  }
+  .myform label {
+    display: block;
+
+  }
+.myform input[type="text"], .myform input[type="number"], .myform input[type="tel"], .myform input[type="email"], .myform textarea{
+  padding: 5px;
+  width: 90%;
+}
+.btn1 {
+  background-color: #CE5C6D;;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+.btn1:hover {
+  background-color:#333333;
+}
+
+.addressDiv {
+
+  background-color: #1D2528;
+  width: 20%;
+  position: relative;
+  float: right;
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  padding: 10px;
+
+  color: white;
+}
+
+.clear{
+  clear: both;
+}
+.maps {
+  margin: auto;
+  width: 80%;
+  }
+  iframe {
+
+    box-shadow:10px 10px #888888;
+
+  }
